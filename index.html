@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pemesanan Makanan - Multiple</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Form Pemesanan Makanan</h1>
+    
+    <form id="orderForm">
+      <div id="orderItems"></div>
+
+      <button type="button" id="addItemBtn">Tambah Pesanan</button><br><br>
+
+      <!-- Tambahkan CAPTCHA di sini -->
+      <div id="captcha-container">
+        <label for="captcha">Verifikasi CAPTCHA:</label>
+        <div id="captcha-code"></div>
+        <button type="button" id="refresh-captcha">Refresh CAPTCHA</button><br><br>
+        <input type="text" id="captcha-input" placeholder="Masukkan kode CAPTCHA" required>
+      </div><br>
+
+      <button type="submit">Pesan Semua</button>
+    </form>
+
+    <div id="totalEstimate" class="hidden">
+      <h3>Estimasi Total Semua Pesanan: <span id="totalPrice">Rp0</span></h3>
+    </div>
+
+    <div id="orderResult"></div>
+    <div id="errorMsg" class="error"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

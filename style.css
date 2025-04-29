@@ -1,0 +1,149 @@
+/* Umum */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #74ebd5, #ACB6E5); /* Gradasi warna biru */
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Container utama */
+  .container {
+    background: #ffffff;
+    width: 90%;
+    max-width: 700px;
+    padding: 30px 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  /* Judul */
+  .container h1 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Form */
+  form {
+    margin-bottom: 20px;
+  }
+  
+  /* Setiap pesanan */
+  .orderItem {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    background: #f1f1f1;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover efek */
+  .orderItem:hover {
+    background: #e0e0e0;
+  }
+  
+  /* Select dan Input */
+  select, input {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Fokus input */
+  select:focus, input:focus {
+    border-color: #74ebd5;
+  }
+  
+  /* Tombol */
+  button {
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    background: #74ebd5;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover tombol */
+  button:hover {
+    background: #4bb3d1;
+  }
+  
+  /* Total Estimasi */
+  #totalEstimate {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #2b5876;
+  }
+  
+  /* Hasil pesanan */
+  #orderResult {
+    margin-top: 30px;
+    background: #dfe9f3;
+    padding: 20px;
+    border-radius: 15px;
+  }
+  
+  /* Error */
+  #errorMsg {
+    color: red;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .hidden {
+    display: none;
+  }
+
+  #captcha-container {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+  }
+  
+  #captcha-code {
+    font-family: 'Courier New', monospace;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #e9ecef;
+    border: 1px dashed #ced4da;
+    border-radius: 4px;
+    user-select: none;
+  }
+  
+  #refresh-captcha {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  #refresh-captcha:hover {
+    background-color: #5a6268;
+  }
+  
+  #captcha-input {
+    width: 150px;
+    padding: 5px;
+    margin-top: 5px;
+  }

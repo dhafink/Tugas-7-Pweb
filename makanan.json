@@ -1,0 +1,26 @@
+[
+  {
+    "nama": "Nasi Goreng",
+    "harga": 20000
+  },
+  {
+    "nama": "Mie Ayam",
+    "harga": 15000
+  },
+  {
+    "nama": "Bakso",
+    "harga": 18000
+  },
+  {
+    "nama": "Sate Ayam",
+    "harga": 25000
+  },
+  {
+    "nama": "Es Teh",
+    "harga": 5000
+  },
+  {
+    "nama": "Jus Jeruk",
+    "harga": 8000
+  }
+]
